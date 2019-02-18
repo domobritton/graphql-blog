@@ -21,6 +21,7 @@ export default class Post extends Component {
     )
   }
 }
+
 const POST_QUERY = gql`
   query post($id: ID!) {
     post(where: { id: $id }) {
